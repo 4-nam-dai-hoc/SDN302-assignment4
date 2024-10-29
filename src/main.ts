@@ -9,8 +9,8 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   const config = new DocumentBuilder()
-    .setTitle('QE170173 - Users API with JWT Authentication')
-    .setDescription('Assignment 4 -  AUTHENTICATION')
+    .setTitle('Assignment 4 -  AUTHENTICATION')
+    .setDescription('QE170173 - Users API with JWT Authentication')
     .setVersion('1.0')
     .addBearerAuth()
     .build();
